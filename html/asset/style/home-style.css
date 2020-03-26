@@ -1,0 +1,40 @@
+/*
+#################################
+-----    Page d'acceuil
+#################################
+*/
+#myCarousel{
+    height: 100%;
+    background-color:white;
+}
+
+#recommandation{
+    height: 100%;
+    padding:20px;
+}
+
+.carousel-control{
+    background-image: none !important;
+}
+.carousel-control > .glyphicon{
+    color : black;
+}
+.carousel-sitation{
+    text-align:left;
+    font-weight: lighter;
+    font-size:16px;
+    padding:15px 25px;
+}
+.carousel-author{
+    font-weight : lighter;
+    text-align : center;
+}
+.carousel-inner{
+    height:100%;
+}
+.carousel-indicators li{
+
+    border-color: green;
+    background-color: green !important;
+
+}
