@@ -1,0 +1,285 @@
+/*
+#### Création d'un style personnalisé pour les composants
+##     -- Boutton
+##     -- Bannière
+##     -- Navigation
+##     -- Images
+##     -- Graduation_card
+##     -- Porjet_card
+##     -- Formulaire
+##     -- Icons
+*/
+
+
+
+
+/* -- Boutons -- */
+    .button-social{
+        color : black;
+
+        border-radius : 50px;
+        background-color : white;
+
+        margin : 5px 2px;
+
+        -webkit-transition : 0.5s; /* Compatibilité Safari */
+        transition : 0.5s;
+
+        -webkit-box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 1px 2px rgba(50, 50, 50, 0.75);
+        box-shadow:         0px 1px 2px rgba(50, 50, 50, 0.75);
+    }
+    .button-social:hover{
+        background-color: #6C9965;
+
+    }
+
+    .button-download{
+        color : white;
+
+        background-color: #6C9965;
+        border-radius: 50px;
+
+        -webkit-transition : 0.7s; /* Safari */
+        transition : 0.7s;
+
+        -webkit-box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 1px 2px rgba(50, 50, 50, 0.75);
+        box-shadow:         0px 1px 2px rgba(50, 50, 50, 0.75);
+    }
+    .button-download:hover{
+        color : white;
+
+    }
+    .button-send{
+        background-color: #6C9965;
+        color : white;
+
+        -webkit-transition: 0.7s; /* Safari */
+        transition: 0.7s;
+
+        -webkit-box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 1px 2px rgba(50, 50, 50, 0.75);
+        box-shadow:         0px 1px 2px rgba(50, 50, 50, 0.75);
+    }
+
+
+
+/* -- Bannière -- */
+    .banner-content > .banner-title{
+        color: white;
+        font-weight: bolder;
+        font-size: 50px !important;
+        text-transform: uppercase;
+    }
+    .banner-content > .banner-subtitle{
+        color: white;
+        font-weight: lighter;
+        font-size: 30px !important;
+    }
+
+    /* Bannière de la page d'acceuil */
+    .home-banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 75vh;
+        text-align: center;
+
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(74, 74, 74, 0.6) 70%), url("./../../img/laptop-notebook-computer-desktop-macbook-pro-design-1325152-pxhere.com.jpg");
+        background-attachment:fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* Bannière de la page de profil */
+    .profil-banner{
+        margin-top: 45px;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(74, 74, 74, 0.6) 70%), url("./../../img/laptop-desk-computer-work-technology-home-124100-pxhere.com.jpg");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* Bannière de la page des projets */
+    .projet-banner{
+
+        margin-top: 45px;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(74, 74, 74, 0.6) 70%), url("./../../img/book-read-interior-reading-shelf-tv-710499-pxhere.com.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* Bannière de la page de contact */
+    .contact-banner{
+        margin-top: 45px;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(70, 70, 70, 0.6) 70%), url("./../../img/tree-water-sign-green-mailbox-mail-box-139100-pxhere.com.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+/* -- Navigation -- */
+    .navbar-custom{
+        background-color: black;
+        padding: 10px;
+    }
+    .navbar-brand{
+        color: white !important;
+        font-size: 20px !important;
+        text-decoration: none;
+    }
+    .nav-item{
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    .nav-item:hover{
+        color:#6C9965 !important;
+    }
+
+    /* modification class bootstrap : centrage de la navigation */
+    .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+      text-align: center;
+    }
+    /***/
+    .navbar_nav > .active{
+        color:green;
+    }
+
+
+
+/* -- Images -- */
+    .profil{
+        width: auto;
+        height: 200px;
+        padding: 5px;
+
+        border: 2px solid #6C9965;
+        border-radius: 50%;
+
+        background-color: white;
+    }
+
+
+/* -- Graduation-cards -- */
+    .category-graduation{
+        text-align:center;
+        margin : 20px 0px;
+        font-size : 20px;
+        text-transform:uppercase;
+        font-weight: 500;
+
+
+    }
+    .graduation{
+        display : flex;
+        align-items : center;
+        justify-content : flex-start;
+
+        padding : 15px;
+        margin : 20px auto;
+
+        background-color : white;
+        border-radius : 3px;
+        border-left : 5px solid #6C9965;
+
+        -webkit-box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 1px 2px rgba(50, 50, 50, 0.75);
+        box-shadow:         0px 1px 2px rgba(50, 50, 50, 0.75);
+
+    }
+    .graduation-date{
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+
+        min-width: 100px;
+        max-width: 100px;
+        height: auto;
+        margin-right: 15px;
+
+    }
+    .graduation-date > p{
+        font-weight: normal;
+        font-size: 14px !important;
+        margin-top: 5px;
+    }
+    .graduation-content{
+        border-left: 1px solid #C3C3C3;
+        padding-left: 15px;
+    }
+
+    .graduation-title{
+        font-weight: normal;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+    .graduation-school{
+        font-weight: lighter;
+        font-style: normal;
+        padding-bottom: 10px;
+
+    }
+    .graduation-description{
+        padding-bottom: 10px;
+        font-weight: lighter;
+    }
+    .graduation-content > p{
+
+        margin:2px 0px;
+    }
+
+
+/*-- Icons --*/
+    .icon_area{
+        display : flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 55px;
+        height: 55px;
+        background-color: #6C9965;
+        border-radius: 50%;
+    }
+    .icon_area >i{
+        color:white;
+    }
+
+    .icon_small_area >i{
+        color:white;
+    }
+    .icon_small_area{
+        display : flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 30px;
+        height: 30px;
+        margin-right:10px;
+        background-color: #6C9965;
+        border-radius: 50%;
+    }

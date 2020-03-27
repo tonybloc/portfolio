@@ -1,0 +1,29 @@
+body{
+    font-family: 'Lato', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif !important;
+}
+body,p,a{
+    font-family: 'Lato', sans-serif !important;
+    font-size: 16px !important;
+}
+
+i{padding: 5px 5px;}
+section{padding:80px 0px;}
+section > h3{
+    color: #6C9965;
+    font-size: 24px;
+    font-weight: bolder;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+footer{
+        
+}
