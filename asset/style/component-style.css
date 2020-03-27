@@ -151,9 +151,7 @@
         text-transform: uppercase;
     }
     .nav-item:hover{
-        color: white !important;
-        background-color: #6C9965 !important;
-        border-radius: 5px;
+        color:#6C9965 !important;
     }
 
     /* modification class bootstrap : centrage de la navigation */
