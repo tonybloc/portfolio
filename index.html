@@ -62,7 +62,7 @@
                             <li><a href="#contact" class="nav-item">Contact</a></li>
                         </ul>
                     </div>
-                </div>re
+                </div>
             </div>
         </nav>
 
@@ -342,30 +342,17 @@
         </footer>
 
 
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="asset/bootstrap/js/bootstrap.min.js"></script>
 
-        <script type="text/javascript">
-        $(function(){
-                
-            // Animation de la navigation
-            $(function(){
-                $(document).ready(function(){
-                    $('body').scrollspy({target: ".navbar", offset: 50});
-                    $("#nav-responsive a").on('click', function(event) {
-                        if (this.hash !== "") {
-                        event.preventDefault();
-                        var hash = this.hash;
+        <!-- Firebase credential -->
+        <script src="asset/script/firebase.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-app.js"></script>
+        <!-- Firebase products SDKs that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-analytics.js"></script>
 
-                        $('html, body').animate({
-                            scrollTop: $(hash).offset().top
-                        }, 800, function(){
-                            window.location.hash = hash;
-                        });
-                        }
-                    });
-                });
-            });
-        </script>
+        <script src="asset/script/navigation.js"></script>
     </body>
 </html>
