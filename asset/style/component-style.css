@@ -20,7 +20,7 @@
         border-radius : 50px;
         background-color : white;
 
-        margin : 5px 2px;
+        margin : 1rem;
 
         -webkit-transition : 0.5s; /* Compatibilité Safari */
         transition : 0.5s;
@@ -30,14 +30,15 @@
         box-shadow:         0px 1px 2px rgba(50, 50, 50, 0.75);
     }
     .button-social:hover{
-        background-color: #6C9965;
+        color: white;
+        background-color: #1C8249;
 
     }
 
     .button-download{
         color : white;
 
-        background-color: #6C9965;
+        background-color: #1C8249;
         border-radius: 50px;
 
         -webkit-transition : 0.7s; /* Safari */
@@ -52,7 +53,7 @@
 
     }
     .button-send{
-        background-color: #6C9965;
+        background-color: #1C8249;
         color : white;
 
         -webkit-transition: 0.7s; /* Safari */
@@ -63,19 +64,30 @@
         box-shadow:         0px 1px 2px rgba(50, 50, 50, 0.75);
     }
 
+    .button-link {
+        color : black;
+
+        border-radius : 50px;
+        background-color : white;
+
+        margin : 5px 2px;
+    }
+
 
 
 /* -- Bannière -- */
     .banner-content > .banner-title{
         color: white;
         font-weight: bolder;
-        font-size: 50px !important;
+        font-size: 4rem !important;
         text-transform: uppercase;
+        letter-spacing: 0.2rem;
     }
     .banner-content > .banner-subtitle{
         color: white;
         font-weight: lighter;
-        font-size: 30px !important;
+        font-size: 3rem !important;
+        letter-spacing: 0.1rem;
     }
 
     /* Bannière de la page d'acceuil */
@@ -138,7 +150,7 @@
 
 /* -- Navigation -- */
     .navbar-custom{
-        background-color: black;
+        background-color: #030303;
         padding: 10px;
     }
     .navbar-brand{
@@ -151,7 +163,7 @@
         text-transform: uppercase;
     }
     .nav-item:hover{
-        color:#6C9965 !important;
+        color:#1C8249 !important;
     }
 
     /* modification class bootstrap : centrage de la navigation */
@@ -176,7 +188,7 @@
         height: 200px;
         padding: 5px;
 
-        border: 2px solid #6C9965;
+        border: 2px solid #1C8249;
         border-radius: 50%;
 
         background-color: white;
@@ -187,9 +199,8 @@
     .category-graduation{
         text-align:center;
         margin : 20px 0px;
-        font-size : 20px;
-        text-transform:uppercase;
-        font-weight: 500;
+        font-size : 2.5rem;
+        
 
 
     }
@@ -203,7 +214,7 @@
 
         background-color : white;
         border-radius : 3px;
-        border-left : 5px solid #6C9965;
+        border-left : 5px solid #1C8249;
 
         -webkit-box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.75);
         -moz-box-shadow:    0px 1px 2px rgba(50, 50, 50, 0.75);
@@ -235,8 +246,7 @@
     }
 
     .graduation-title{
-        font-weight: normal;
-        font-family: 'Montserrat', sans-serif !important;
+        font-weight: bold;
     }
     .graduation-school{
         font-weight: lighter;
@@ -262,7 +272,7 @@
 
         width: 55px;
         height: 55px;
-        background-color: #6C9965;
+        background-color: #1C8249;
         border-radius: 50%;
     }
     .icon_area >i{
@@ -280,6 +290,6 @@
         width: 30px;
         height: 30px;
         margin-right:10px;
-        background-color: #6C9965;
+        background-color: #1C8249;
         border-radius: 50%;
     }
