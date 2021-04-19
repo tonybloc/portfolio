@@ -3,7 +3,7 @@
 (function(){
 
     // You can use this github key if you want, you silly human... ! (read access to public data)
-    const github = "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";
+    const github = "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";
         
     // On DOM load, generate project card
     document.addEventListener('DOMContentLoaded', function(event) {
@@ -63,7 +63,7 @@
                 
             },
             failed: function(response) {
-                console.log('error');
+                console.log('error' + response);
             },
             startLoading: function() {
             },
@@ -233,7 +233,7 @@
             <div class='project-card' data-toggle='modal' data-target='#${id}'>
                 <img id='${id}-image'
                     class='image_projet img-responsive' 
-                    src='https://via.placeholder.com/50' 
+                    src='./loader.gif' 
                     style='height: inherit;width: inherit;'/>
                 <div class='overlay'>
                     <div class='text'>

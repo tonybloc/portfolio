@@ -35,7 +35,7 @@ table > tbody > tr > td{
     text-transform: uppercase;
 }
 .category_content{
-
+    text-align: center;
 }
 
 .input:focus{
