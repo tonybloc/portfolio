@@ -8,7 +8,7 @@
     // On DOM load, generate project card
     document.addEventListener('DOMContentLoaded', function(event) {
             
-        let parent_dom_element = document.getElementById('projects');
+        let parent_dom_element = document.getElementById('projects-list');
         
         RetreiveGithubProjects(parent_dom_element);
     });
